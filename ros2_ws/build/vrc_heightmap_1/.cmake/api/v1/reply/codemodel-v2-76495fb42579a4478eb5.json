@@ -1,0 +1,66 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-039afc9d23d269589302.json",
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "materials",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials-6eee5a6cb2eb2242e38e.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "materials"
+				},
+				{
+					"build" : "materials/textures",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials.textures-8daf971323a2c145f555.json",
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "materials/textures"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/vrc_heightmap_1",
+		"source" : "/home/ubuntu/ros2_ws/src/gazebo_models/models/vrc_heightmap_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

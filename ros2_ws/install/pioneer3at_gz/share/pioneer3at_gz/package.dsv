@@ -1,0 +1,6 @@
+source;share/pioneer3at_gz/hook/pythonpath.ps1
+source;share/pioneer3at_gz/hook/pythonpath.dsv
+source;share/pioneer3at_gz/hook/pythonpath.sh
+source;share/pioneer3at_gz/hook/ament_prefix_path.ps1
+source;share/pioneer3at_gz/hook/ament_prefix_path.dsv
+source;share/pioneer3at_gz/hook/ament_prefix_path.sh

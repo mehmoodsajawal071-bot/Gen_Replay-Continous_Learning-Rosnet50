@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="9_mm">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+          
+             <uri>model://9_mm/meshes/9_mm.obj</uri>
+             <scale>0.01 0.01 0.01</scale>
+    
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
+

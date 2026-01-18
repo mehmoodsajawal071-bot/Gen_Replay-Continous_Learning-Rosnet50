@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gazebo_models/models/vrc_heightmap_1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/vrc_heightmap_1
+Invoked command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1' returned '0': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gazebo_models/models/vrc_heightmap_1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/vrc_heightmap_1
+Invoking command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1': /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/vrc_heightmap_1 -- -j128 -l128
+Invoked command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/vrc_heightmap_1 -- -j128 -l128
+Invoking command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1': /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/vrc_heightmap_1
+Invoked command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1' returned '0': /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/vrc_heightmap_1

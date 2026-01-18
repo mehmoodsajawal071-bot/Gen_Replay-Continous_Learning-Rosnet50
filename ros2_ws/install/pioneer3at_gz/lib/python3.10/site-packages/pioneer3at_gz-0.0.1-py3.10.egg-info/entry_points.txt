@@ -1,0 +1,4 @@
+[console_scripts]
+fire_detection = fire_node.fire_detection_node:main
+pioneer_controller = pioneer_controller:main
+

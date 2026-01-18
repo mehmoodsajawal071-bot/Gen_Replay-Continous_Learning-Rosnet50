@@ -1,0 +1,48 @@
+[0.302s] Invoking command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gazebo_models/models/vrc_heightmap_1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/vrc_heightmap_1
+[0.313s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.313s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.313s]   contain a literal, direct call to the project() command.  Add a line of
+[0.313s]   code such as
+[0.313s] 
+[0.314s]     project(ProjectName)
+[0.314s] 
+[0.314s]   near the top of the file, but after cmake_minimum_required().
+[0.314s] 
+[0.314s]   CMake is pretending there is a "project(Project)" command on the first
+[0.314s]   line.
+[0.314s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.314s] [0m
+[0.405s] -- The C compiler identification is GNU 11.4.0
+[0.519s] -- The CXX compiler identification is GNU 11.4.0
+[0.539s] -- Detecting C compiler ABI info
+[0.692s] -- Detecting C compiler ABI info - done
+[0.702s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.702s] -- Detecting C compile features
+[0.702s] -- Detecting C compile features - done
+[0.707s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.880s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.880s] -- Detecting CXX compile features
+[0.882s] -- Detecting CXX compile features - done
+[0.886s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.886s]   No cmake_minimum_required command is present.  A line of code such as
+[0.886s] 
+[0.886s]     cmake_minimum_required(VERSION 3.22)
+[0.887s] 
+[0.887s]   should be added at the top of the file.  The version specified may be lower
+[0.887s]   if you wish to support older CMake versions for this project.  For more
+[0.887s]   information run "cmake --help-policy CMP0000".
+[0.888s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.888s] [0m
+[0.888s] -- Configuring done
+[0.894s] -- Generating done
+[0.900s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/vrc_heightmap_1
+[0.910s] Invoked command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1' returned '0': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gazebo_models/models/vrc_heightmap_1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/vrc_heightmap_1
+[0.913s] Invoking command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1': /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/vrc_heightmap_1 -- -j128 -l128
+[0.990s] Invoked command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/vrc_heightmap_1 -- -j128 -l128
+[0.992s] Invoking command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1': /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/vrc_heightmap_1
+[1.009s] -- Install configuration: ""
+[1.009s] -- Installing: /home/ubuntu/ros2_ws/install/vrc_heightmap_1/share/Project/gazebo_models/environments/vrc_heightmap_1/model.config
+[1.010s] -- Installing: /home/ubuntu/ros2_ws/install/vrc_heightmap_1/share/Project/gazebo_models/environments/vrc_heightmap_1/model.sdf
+[1.011s] -- Installing: /home/ubuntu/ros2_ws/install/vrc_heightmap_1/share/Project/gazebo_models/environments/vrc_heightmap_1/materials/textures/heightmap.png
+[1.015s] Invoked command in '/home/ubuntu/ros2_ws/build/vrc_heightmap_1' returned '0': /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/vrc_heightmap_1

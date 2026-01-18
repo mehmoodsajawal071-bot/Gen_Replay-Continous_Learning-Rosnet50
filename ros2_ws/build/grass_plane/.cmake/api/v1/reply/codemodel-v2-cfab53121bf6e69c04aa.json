@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-81a37306416b3b53f390.json",
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "materials",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials-6eee5a6cb2eb2242e38e.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "materials"
+				},
+				{
+					"build" : "materials/scripts",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials.scripts-983aeb897eed2f437922.json",
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "materials/scripts"
+				},
+				{
+					"build" : "materials/textures",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials.textures-17fb51d80a4c215a394d.json",
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "materials/textures"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/grass_plane",
+		"source" : "/home/ubuntu/ros2_ws/src/gazebo_models/models/grass_plane"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

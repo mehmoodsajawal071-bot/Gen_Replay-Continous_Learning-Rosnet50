@@ -1,0 +1,59 @@
+[0.657s] Invoking command in '/home/ubuntu/ros2_ws/src/pioneer3at_gz': PYTHONPATH=/home/ubuntu/ros2_ws/build/pioneer3at_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pioneer3at_gz build --build-base /home/ubuntu/ros2_ws/build/pioneer3at_gz/build install --record /home/ubuntu/ros2_ws/build/pioneer3at_gz/install.log --single-version-externally-managed install_data
+[0.924s] running egg_info
+[0.925s] creating ../../build/pioneer3at_gz/pioneer3at_gz.egg-info
+[0.925s] writing ../../build/pioneer3at_gz/pioneer3at_gz.egg-info/PKG-INFO
+[0.925s] writing dependency_links to ../../build/pioneer3at_gz/pioneer3at_gz.egg-info/dependency_links.txt
+[0.925s] writing entry points to ../../build/pioneer3at_gz/pioneer3at_gz.egg-info/entry_points.txt
+[0.926s] writing requirements to ../../build/pioneer3at_gz/pioneer3at_gz.egg-info/requires.txt
+[0.926s] writing top-level names to ../../build/pioneer3at_gz/pioneer3at_gz.egg-info/top_level.txt
+[0.926s] writing manifest file '../../build/pioneer3at_gz/pioneer3at_gz.egg-info/SOURCES.txt'
+[0.927s] reading manifest file '../../build/pioneer3at_gz/pioneer3at_gz.egg-info/SOURCES.txt'
+[0.928s] writing manifest file '../../build/pioneer3at_gz/pioneer3at_gz.egg-info/SOURCES.txt'
+[0.928s] running build
+[0.928s] running build_py
+[0.929s] creating /home/ubuntu/ros2_ws/build/pioneer3at_gz/build
+[0.929s] creating /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib
+[0.929s] creating /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz
+[0.929s] copying ./pioneer3at_gz/__init__.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz
+[0.929s] copying ./pioneer3at_gz/obstacle_avoidance.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz
+[0.929s] copying ./pioneer3at_gz/pioneer_controller.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz
+[0.930s] copying ./pioneer3at_gz/yolo_detector.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz
+[0.930s] creating /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node
+[0.930s] copying ./fire_node/fire_model_loader.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node
+[0.930s] copying ./fire_node/main.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node
+[0.930s] copying ./fire_node/__init__.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node
+[0.930s] copying ./fire_node/fire_detection_node_old.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node
+[0.931s] copying ./fire_node/fire_detection_node.py -> /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node
+[0.931s] running install
+[0.931s] running install_lib
+[0.931s] creating /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz
+[0.932s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz/__init__.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz
+[0.932s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz/obstacle_avoidance.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz
+[0.932s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz/pioneer_controller.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz
+[0.932s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/pioneer3at_gz/yolo_detector.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz
+[0.932s] creating /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node
+[0.932s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node/fire_model_loader.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node
+[0.933s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node/main.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node
+[0.933s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node/__init__.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node
+[0.933s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node/fire_detection_node_old.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node
+[0.933s] copying /home/ubuntu/ros2_ws/build/pioneer3at_gz/build/lib/fire_node/fire_detection_node.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node
+[0.933s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz/__init__.py to __init__.cpython-310.pyc
+[0.934s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[0.935s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz/pioneer_controller.py to pioneer_controller.cpython-310.pyc
+[0.935s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz/yolo_detector.py to yolo_detector.cpython-310.pyc
+[0.936s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node/fire_model_loader.py to fire_model_loader.cpython-310.pyc
+[0.937s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node/main.py to main.cpython-310.pyc
+[0.937s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node/__init__.py to __init__.cpython-310.pyc
+[0.937s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node/fire_detection_node_old.py to fire_detection_node_old.cpython-310.pyc
+[0.938s] byte-compiling /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/fire_node/fire_detection_node.py to fire_detection_node.cpython-310.pyc
+[0.939s] running install_data
+[0.939s] creating /home/ubuntu/ros2_ws/install/pioneer3at_gz/share/pioneer3at_gz/launch
+[0.939s] copying launch/pioneer3at.launch.py -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/share/pioneer3at_gz/launch
+[0.939s] copying package.xml -> /home/ubuntu/ros2_ws/install/pioneer3at_gz/share/pioneer3at_gz
+[0.939s] running install_egg_info
+[0.941s] Copying ../../build/pioneer3at_gz/pioneer3at_gz.egg-info to /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages/pioneer3at_gz-0.0.1-py3.10.egg-info
+[0.942s] running install_scripts
+[0.962s] Installing fire_detection script to /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/pioneer3at_gz
+[0.962s] Installing pioneer_controller script to /home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/pioneer3at_gz
+[0.963s] writing list of installed files to '/home/ubuntu/ros2_ws/build/pioneer3at_gz/install.log'
+[0.983s] Invoked command in '/home/ubuntu/ros2_ws/src/pioneer3at_gz' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/pioneer3at_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/pioneer3at_gz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pioneer3at_gz build --build-base /home/ubuntu/ros2_ws/build/pioneer3at_gz/build install --record /home/ubuntu/ros2_ws/build/pioneer3at_gz/install.log --single-version-externally-managed install_data
